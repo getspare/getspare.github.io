@@ -38,6 +38,10 @@
 			font-size: 1.25em;
 		}
 
+.map {
+		padding: 0 1em 0 1em;
+	}
+
 /* Layers */
 
 .ride-header {

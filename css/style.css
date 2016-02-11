@@ -1278,6 +1278,20 @@
 			cursor: pointer;
 		}
 
+	.map {
+		padding: 0 4em 0 4em;
+	}
+
+	.low-padded
+	{
+		padding: 1em;
+	}
+	
+	.medium-padded
+	{
+		padding: 3em;
+	}
+
 /* Grid Demo */
 
 	.grid-demo {

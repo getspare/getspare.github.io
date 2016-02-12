@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  {% include head.html %}
+
+	<body class="landing">
+		<!-- Banner -->
+
+      {% include header.html %}
+
+			<section id="banner">
+				<h2>{{ page.title }}</h2>
+				<h3>{{ page.subtitle }}</h3>
+
+				<div class="container">
+				    <div class="12u$ inline">
+					    <form action="http://sparerides.com/ride">
+						    <input class="button big ride-button" type="submit" value="{{ page.rideButtonTitle }}">
+						</form>
+					</div>
+				    <div class="12u$ inline">
+						<form action="http://sparerides.com/drive">
+						    <input class="button big drive-button" type="submit" value="{{ page.driveButtonTitle }}">
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<section class="wrapper style2 special">
+				<div class="container">
+					<div class="box alt">
+						<div class="row 50% uniform">
+							<div class="4u 12u$(small)">
+							<header><h2>{{ page.enterDestinationTitle }}</h2></header>
+								<span class="image fit low-padded"><img src="{{page.enterDestinationImage}}" alt="" /></span>
+							</div>
+							<div class="4u 12u$(small)">
+								<header><h2>{{ page.getMatchedTitle }}</h2></header>
+								<span class="image fit low-padded"><img src="{{page.getMatchedImage}}" alt="" /></span>
+							</div>
+							<div class="4u$ 12u$(small)">
+								<header><h2>{{ page.goTitle }}</h2></header>
+								<span class="image fit low-padded"><img src="{{page.goImage}}" alt="" /></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="wrapper style1 dark special">
+				<div class="container">
+					<header class="major">
+						<h2>This is your Spare Zone!</h2>
+						<p>As long as you are going through the highlighted area below (UBC - Broadway Corridor) the service will be there when you need it!</p>
+					</header>
+					<span class="image fit"><img class="map" src="{{ page.spareZoneImage }}" alt="" /></span>
+
+				</div>
+			</section>
+
+			<section id="none" class="wrapper style2 special">
+				<div class="container">
+					<header class="major">
+						<h2>You may have heard about us...</h2>
+					</header>
+
+					<div class="box alt">
+						<div class="row 50% uniform">
+							<div class="4u 12u$(small)">
+								<a href="http://bc.ctvnews.ca/vancouver-companies-ready-for-uber-competition-1.2758372">
+									<span class="image fit medium-padded"><img src="images/ctv-logo.png" alt="" /></span>
+								</a>
+							</div>
+
+							<div class="4u 12u$(small)">
+								<a href="http://vancouverisawesome.com/2015/10/28/12-startups-to-watch-with-founders-younger-than-you/">
+									<span class="image fit medium-padded"><img src="images/vancouver-is-awesome-logo.png" alt="" /></span>
+								</a>
+							</div>
+
+							<div class="4u$ 12u$(small)">
+								<a href="http://ubyssey.ca/news/ridesharing-company-uber-seeks-support-ams/">
+									<span class="image fit medium-padded"><img src="images/ubyssey-logo.png" alt="" /></span>
+								</a>
+							</div>
+							<!-- <div class="4u$ 12u$(small)">
+								<a href="http://wearetnbt.com">
+									<span class="image fit medium-padded"><img src="images/tnbt-logo.jpg" alt="" /></span>
+								</a>
+							</div> -->
+						</div>
+					</div>
+				</div>
+				<footer>
+					<p>We look forward to seeing you out there! &nbsp;<i class="fa fa-smile-o"></i>&nbsp;  Happy Sparing!</p>
+					<ul class="actions">
+						<li></li>
+						<li>
+							<a href="http://sparerides.com/app" class="button big"><img src="images/app-store.svg"/></a>
+						</li>
+					</ul>
+				</footer>
+			</section>
+
+    {% include footer.html %}
+
+	</body>
+</html>

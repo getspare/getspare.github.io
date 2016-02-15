@@ -8,9 +8,10 @@
 # Site settings
 title: Spare
 email: hello@sparerides.com
-description: > Spare matches riders with passengers going similar directions
-in Vancouver.  Earn money as a driver and get where you need to go as a rider!
-Available on the UBC-Broadway Corridor.
+description: >
+  Spare matches riders with passengers going similar directions
+  in Vancouver.  Earn money as a driver and get where you need to go as a rider!
+  Available on the UBC-Broadway Corridor.
 baseurl: ""
 url: "https://sparerides.com" # the base hostname & protocol for your site
 twitter_username: sparerides

@@ -61,5 +61,14 @@
 /* Banner */
 
 	#banner {
-		padding: 6em .5em 6em;
+		background-position: -200px center;
+		padding: 10em 0em 6em;
+	}
+
+	#banner h2 {
+		padding: 0 .5em;
+	}
+
+	#banner h3 {
+		padding: 0 .5em;
 	}

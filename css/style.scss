@@ -46,7 +46,7 @@ $color_manatee_approx: #8d93a0;
 $black_25: rgba(0, 0, 0, 0.25);
 
 //fonts
-$font_0: Raleway;
+$font_0: Open Sans;
 $font_1: Helvetica;
 $font_2: sans-serif;
 $font_3: Courier New;
@@ -218,7 +218,7 @@ $url_3: url(../images/hero-main.jpeg);
 }
 
 @import url(font-awesome.min.css);
-@import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 @charset "UTF-8";
 body {
@@ -1130,6 +1130,7 @@ input[type="button"] {
 		@extend %extend_13;
 	}
 }
+
 .drive-button {
 	background-color: $color_chilean_fire_approx;
 	&:hover {
@@ -1247,6 +1248,7 @@ input[type="button"] {
 	color: $white;
 	padding: 14em 0;
 	text-align: center;
+	min-height: calc(100vh + 100px);
 	:last-child {
 		margin-bottom: 0;
 	}
@@ -1390,8 +1392,11 @@ input[type="button"] {
 	overflow: hidden;
 }
 #footer {
-	background: $color_ship_gray_approx;
-	padding: 6em 0 4em;
+	padding: 10em 0 4em;
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.80));
 	h2 {
 		color: $white;
 	}
@@ -1426,12 +1431,14 @@ input[type="button"] {
 	.copyright {
 		margin-top: 0.65em;
 		padding: 0;
+		text-align:left;
 		li {
 			color: $color_gunsmoke_approx;
 			display: inline-block;
 			list-style: none;
 			margin-left: 0.5em;
-			padding-left: 0.5em;
+			padding: .5em;
+			color: #fff;
 			&:first-child {
 				margin-left: 0;
 				padding-left: 0;
@@ -1488,4 +1495,16 @@ section.special {
 }
 article.special {
 	text-align: center;
+}
+
+.app-store-button {
+		font-size: 1.35em;
+		padding: 0px;
+		padding: 3em 1em 10em 1em;
+		height: 3.85em;
+		display:inline-block;
+
+		img {
+			width: 10em;
+		}
 }

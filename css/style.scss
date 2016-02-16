@@ -1151,7 +1151,7 @@ input[type="button"] {
 	max-height: 2em;
 }
 #header {
-	background-color: $color_ship_gray_approx;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
 	cursor: default;
 	font-size: 1.1em;
 	height: 5em;

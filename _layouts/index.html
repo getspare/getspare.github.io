@@ -2,7 +2,7 @@
 
 <html lang="en">
 
-  {% include head.html %}
+  {% include head-index.html %}
 
 	<body class="landing">
 		<!-- Banner -->
@@ -16,12 +16,12 @@
 
 				<div class="container">
 				    <div class="12u$ inline">
-					    <form action="ride">
+					    <form method="GET" action="/ride">
 						    <input class="button big ride-button" type="submit" value="{{ page.rideButtonTitle }}">
 						</form>
 					</div>
 				    <div class="12u$ inline">
-						<form action="drive">
+						<form method="GET" action="/drive">
 						    <input class="button big drive-button" type="submit" value="{{ page.driveButtonTitle }}">
 						</form>
 					</div>

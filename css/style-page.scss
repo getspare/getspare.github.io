@@ -419,7 +419,11 @@ header {
 	}
 	&.major {
 		text-align: center;
-		margin-bottom: 4em;
+		margin-bottom: 2em;
+		h2 {
+			font-size: 3.5em;
+			margin-bottom: 0.5em;
+		}
 		h2 {
 			font-size: 3em;
 			margin-bottom: 0.5em;
@@ -1246,7 +1250,7 @@ input[type="button"] {
 	background-position: center center;
 	background-size: cover;
 	color: $white;
-	padding: 14em 0;
+	padding: 14em 0 5em 0;
 	text-align: center;
 	:last-child {
 		margin-bottom: 0;
@@ -1267,17 +1271,15 @@ input[type="button"] {
 	}
 }
 .wrapper {
-	padding: 6em 0 4em;
+	padding: 5em 0 4em;
 	&.style1-white {
 		background-color: $white;
 	}
 	&.dark {
 		background-color: $color_wild_sand_approx;
 		.box {
-			background-color: $white;
-			padding: 3em 2.5em;
+			padding: 0em 2.5em 0 2.5em;
 			h2 {
-				color: $color_gunsmoke_approx;
 			}
 			h3 {
 				color: $color_gunsmoke_approx;
@@ -1297,10 +1299,8 @@ input[type="button"] {
 		border-bottom: 1px solid $color_mountain_mist_25_approx;
 		border-top: 1px solid $color_mountain_mist_25_approx;
 		.box {
-			background-color: $color_wild_sand_approx;
-			padding: 3em 2.5em;
+			padding: 3em 2.5em 0 2.5em;
 			h2 {
-				color: $color_gunsmoke_approx;
 			}
 			h3 {
 				color: $color_gunsmoke_approx;
@@ -1495,7 +1495,7 @@ article.special {
 
 .app-store-button {
 		font-size: 1.35em;
-		margin: 3em 1em 10em 1em;
+		margin: 3em 1em 3em 1em;
 		height: 3.85em;
 		display:inline-block;
 

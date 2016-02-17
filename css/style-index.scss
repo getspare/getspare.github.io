@@ -1242,6 +1242,18 @@ input[type="button"] {
 		color: $color_pink_lace_approx;
 	}
 }
+.team-header {
+	color: $white;
+	&:hover {
+		color: $color_pink_lace_approx;
+	}
+}
+.contact-us-header {
+	color: $white;
+	&:hover {
+		color: $color_pink_lace_approx;
+	}
+}
 #banner {
 	background-position: center center;
 	background-size: cover;

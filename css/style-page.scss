@@ -54,7 +54,6 @@ $font_4: monospace;
 $font_5: FontAwesome;
 
 
-$url_2: url(../images/dark_tint.png);
 $url_3: url(../images/hero-main.jpeg);
 
 //@extend-elements
@@ -1246,6 +1245,18 @@ input[type="button"] {
 		color: $color_pink_lace_approx;
 	}
 }
+.team-header {
+	color: $white;
+	&:hover {
+		color: $color_pink_lace_approx;
+	}
+}
+.contact-us-header {
+	color: $white;
+	&:hover {
+		color: $color_pink_lace_approx;
+	}
+}
 #banner {
 	background-position: center center;
 	background-size: cover;
@@ -1278,7 +1289,6 @@ input[type="button"] {
 	&.dark {
 		background-color: $color_wild_sand_approx;
 		.box {
-			padding: 0em 2.5em 0 2.5em;
 			h2 {
 			}
 			h3 {
@@ -1299,7 +1309,6 @@ input[type="button"] {
 		border-bottom: 1px solid $color_mountain_mist_25_approx;
 		border-top: 1px solid $color_mountain_mist_25_approx;
 		.box {
-			padding: 3em 2.5em 0 2.5em;
 			h2 {
 			}
 			h3 {

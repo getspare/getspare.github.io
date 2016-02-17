@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  {% include head-page.html %}
+
+	<body class="landing">
+		<!-- Banner -->
+
+      {% include header.html %}
+
+      <section id="banner" style="background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(25, 61, 72, 0.6)), url({{ page.heroImage }})">
+				<h2>{{ page.title }}</h2>
+			</section>
+
+			<section id="none" class="wrapper style2 special">
+				<div class="container">
+            <h2>Pricing</h2>
+            <p>For the <i>rider</i>: $1.50 base fare and $0.50 per kilometer</p>
+            <p>For the <i>driver</i>: $1.00 base fare and $0.30 per kilometer</p>
+
+            <h2>Where does this work?</h2>
+            <p>We currently operate the service between 1st and 16th, UBC and Commercial.
+              If you would like us to expand our service to a certain location, <a href="contact-us">let us
+              know</a> - we might be heading your way :)</p>
+
+				</div>
+				<footer>
+					<ul class="actions">
+						<li></li>
+						<li>
+							<a href="http://sparerides.com/app" class="button big"><img src="images/app-store.svg"/></a>
+						</li>
+					</ul>
+				</footer>
+			</section>
+
+    {% include footer.html %}
+
+	</body>
+</html>

@@ -78,6 +78,19 @@
 	color: #444;
 }
 
+.side-caption-text
+{
+	text-align: left;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	margin-left: 1.5em;
+}
+
+.side-caption-text-first
+{
+	margin-top: 3em;
+}
+
 #navButton .toggle {
 		text-decoration: none;
 		height: 100%;

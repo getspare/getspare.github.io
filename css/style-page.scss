@@ -71,7 +71,6 @@ $url_3: url(../images/hero-main.jpeg);
 //h1, h2, h3, h4, h5, h6
 %extend_2 {
 	color: $color_gravel_approx;
-	font-weight: 700;
 	line-height: 1em;
 	margin: 0 0 1em 0;
 }
@@ -1257,6 +1256,31 @@ input[type="button"] {
 		color: $color_pink_lace_approx;
 	}
 }
+.purple
+{
+	color: #611B57;
+	font-weight: 700;
+}
+
+.orange
+{
+	color: $color_chilean_fire_approx;
+	font-weight: 700;
+}
+
+.side-caption-text
+{
+	text-align: left;
+	font-size: 2em;
+	line-height: 1.5em;
+	margin-left: 1.5em;
+}
+
+.side-caption-text-first
+{
+	margin-top: 4em;
+}
+
 #banner {
 	background-position: center center;
 	background-size: cover;

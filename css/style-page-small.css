@@ -30,6 +30,18 @@
 			width: 85%;
 		}
 
+		.side-caption-text
+		{
+			text-align: center;
+			font-size: 1.5em;
+			line-height: 1.5em;
+		}
+
+		.side-caption-text-first
+		{
+			margin-top: 1em;
+		}
+
 /* Footer */
 
 	#footer {

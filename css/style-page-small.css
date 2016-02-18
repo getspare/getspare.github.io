@@ -29,6 +29,13 @@
 		.wrapper.style2 footer {
 			width: 85%;
 		}
+		.wrapper.style2 .profile img {
+			float: none;
+		}
+
+		.wrapper.style2 .profile {
+			text-align: center;
+		}
 
 		.side-caption-text
 		{
@@ -57,4 +64,8 @@
 
 		.android {
 			display: none;
+		}
+		
+		.faq-question-title {
+			text-align: center;
 		}

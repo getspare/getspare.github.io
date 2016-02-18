@@ -1381,10 +1381,6 @@ input[type="button"] {
 				margin-bottom: 1em;
 				margin-right: 1em;
 			}
-			h4 {
-				margin-bottom: 0;
-				margin-top: 1em;
-			}
 		}
 		footer {
 			margin-left: auto;
@@ -1540,6 +1536,16 @@ section.special {
 article.special {
 	text-align: center;
 }
+.team-name {
+	margin:0;
+	color: #444;
+}
+
+.team-subtext {
+	margin:0;
+	padding: 0;
+	color: #666;
+}
 
 .app-store-button {
 		font-size: 1.35em;
@@ -1556,4 +1562,13 @@ article.special {
 	img {
 		max-width: 9.6em;
 	}
+}
+
+.faq-question-title {
+	margin-top: 1em;
+	border-bottom: 1px solid #eee;
+}
+
+.app-store-link-footer {
+	text-align:center;
 }

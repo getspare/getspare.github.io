@@ -9,9 +9,23 @@
 		font-size: 12pt;
 	}
 
+	#banner h1 {
+		font-size: 2em;
+		margin: .5em .5em;
+	}
+
+	header.major h1 {
+		font-size: 2em;
+		margin-bottom: 1em;
+	}
+
 	header.major h2 {
 		font-size: 2em;
 		margin-bottom: 1em;
+	}
+
+	header.major h3 {
+		margin: 1em;
 	}
 
 /* List */

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  {% include head-page.html %}
+
+	<body class="landing">
+		<!-- Banner -->
+
+      {% include header.html %}
+
+      <section id="banner" style="background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(2, 2, 2, 0.66)), url({{ page.heroImage }})">
+				<h1>{{ page.title }}</h1>
+			</section>
+
+			<section class="wrapper style2 special">
+        <div class="container">
+            <h1>Looks Like You're Lost...</h1>
+            <h2>May as well download the app and sign up for our mailing list!</h2>
+        </div>
+
+        <!-- Begin MailChimp Signup Form -->
+        <div class="container 50%">
+
+            <div id="mc_embed_signup">
+                <form action="//spareapp.us10.list-manage.com/subscribe/post?u=bca844ad7380e93390c3fd198&amp;id=b636480263" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                        <div class="12u 12u$(small)">
+                          <input type="email" placeholder="Email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                        </div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bca844ad7380e93390c3fd198_b636480263" tabindex="-1" value=""></div>
+                        <input type="submit" value="Subscribe to our Mailing List" name="subscribe" id="mc-embedded-subscribe" class="button drive-button">
+                    </div>
+                </form>
+            </div>
+
+            <footer class="app-store-link-footer">
+              <ul class="actions">
+                <li></li>
+                <li>
+                  <a href="http://sparerides.com/app" class="button big"><img src="images/app-store.svg"/></a>
+                </li>
+              </ul>
+            </footer>
+        </div>
+
+			</section>
+
+    {% include footer.html %}
+
+	</body>
+</html>

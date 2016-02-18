@@ -1240,21 +1240,22 @@ input[type="button"] {
 .faq-header {
 	color: $white;
 	&:hover {
-		color: $color_pink_lace_approx;
+		color: #bbb;
 	}
 }
 .team-header {
 	color: $white;
 	&:hover {
-		color: $color_pink_lace_approx;
+		color: #aadceb;
 	}
 }
 .contact-us-header {
 	color: $white;
 	&:hover {
-		color: $color_pink_lace_approx;
+		color: #e2fffb;
 	}
 }
+
 #banner {
 	background-position: center center;
 	background-size: cover;

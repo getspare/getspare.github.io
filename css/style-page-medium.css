@@ -176,12 +176,14 @@
 					padding: 0 1em 0 0;
 				}
 
+
 					#navPanel nav ul li:first-child a:not(.button), #navPanel nav ul li:first-child span:not(.button) {
 						border-top: 0;
 					}
 
 					#navPanel nav ul li a.button, #navPanel nav ul li span.button {
 						margin-top: 0.5em;
+						display: none;
 					}
 
 					#navPanel nav ul li a:not(.button), #navPanel nav ul li span:not(.button) {

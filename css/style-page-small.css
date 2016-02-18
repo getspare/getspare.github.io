@@ -54,3 +54,7 @@
 			padding-left: 0;
 			display: block;
 		}
+
+		.android {
+			display: none;
+		}

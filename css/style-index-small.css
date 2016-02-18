@@ -9,7 +9,7 @@
 /* Banner */
 
 	#banner {
-		padding: 10em 0em 6em;
+		padding: 10em 0em 14em;
 		min-height: calc(100vh + 200px);
 	}
 
@@ -42,4 +42,8 @@
 			margin-left: 0;
 			padding-left: 0;
 			display: block;
+		}
+
+		.android {
+			display: none;
 		}

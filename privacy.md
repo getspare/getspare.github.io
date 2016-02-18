@@ -2,7 +2,7 @@
 layout: "doc"
 title: "Spare Ridesharing Privacy Policy"
 ---
-##SPARE
+## SPARE
 
 ### PRIVACY POLICY
 

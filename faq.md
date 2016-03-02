@@ -28,24 +28,22 @@ options in Vancouver.
 #### How much will I make as a driver?
 We know driving a car is expensive 💰! Did you know that, on
 average, it costs over $8,000 to own and drive a car in
-Canada 🚗. As a driver using Spare Rides, you you will make
+Canada 🚗. As a driver using Spare Rides, you will make
 $1.00 in base fare and $0.35 per kilometer
 for the rider you pick up. For example, if a rider needs to go
-just over 11 km (example trip shown below), you will be making $5
+just over 11 km, you will be making $5
 for each rider. Be part of the sharing community 💪 !
 
 
 #### Where does this work?
 
 As a rider, we currently operate the service exclusively in
-Vancouver between 1st and 16th, UBC and Commercial (see Spare
-Rides Zone below) during commuting hours (weekdays 8 AM to 11 AM,
+Vancouver between 1st and 16th, UBC and Commercial during commuting hours (weekdays 8 AM to 11 AM,
 and 3 PM to 6 PM). If you would like us to expand our service
 to a certain location, [let us know](contact) - we might be heading your way 😜.
 
 As a driver, you can use Spare Rides anywhere, but pickup and
-dropoff of riders are only open within the Spare Rides Zone
-(see map below) during commuting hours (weekdays 8 AM to
+dropoff of riders are only open within the Spare Rides Zone during commuting hours (weekdays 8 AM to
 11 AM, and 3 PM to 6 PM). The service therefore works best if
 you are driving for at least 5 km through the Spare Rides Zone.
 If you would like us to expand our service to a certain

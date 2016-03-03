@@ -6,6 +6,6 @@ title: "Contact Us"
 
 ## Contact Us
 
-Email: info@sparerides.com
+Email: support@sparerides.com
 <br>
 Phone: (604) 352-6114

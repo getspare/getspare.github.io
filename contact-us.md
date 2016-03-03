@@ -8,4 +8,4 @@ title: "Contact Us"
 
 Email: support@sparerides.com
 <br>
-Phone: +1 604) 265-7433
+Phone: +1 (604) 265-7433

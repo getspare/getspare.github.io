@@ -147,11 +147,6 @@ has a few mandatory protections in place that cover you in the event of an accid
   passengers. You can easily increase your liability limit
   by talking to your Autoplan dealer.**
 
-#### Is there an Android app?
-We are working hard to get an android app out to our users!  Please sign up for our beta list
-[here](http://eepurl.com/bQY5Hr) and we will let you know when you can
-get an early release!
-
 #### How do I redeem a coupon code?
 To redeem a coupon code within the app go to
   Settings &#8594; Account Credits. Your account balance will

@@ -73,10 +73,10 @@ $url_3: url(../images/hero-main.jpeg);
     grid: true,
     breakpoints: (
         xlarge: (
-            containers: 1200
+            containers: 1200px
         ),
         large: (
-						containers: 90%,
+						containers: 960px,
             grid: ( gutters: 1.5em )
         ),
         medium: (
@@ -357,7 +357,7 @@ h2 {
 }
 h3 {
 	@extend %extend_2;
-	font-size: 1.35em;
+	font-size: 1.15em;
 	line-height: 1.5em;
 	a {
 		color: inherit;
@@ -1292,6 +1292,13 @@ input[type="button"] {
 	}
 }
 
+.blog-header {
+	color: $white;
+	&:hover {
+		color: #e2fffb;
+	}
+}
+
 #banner {
 	background-position: center center;
 	background-size: cover;
@@ -1698,6 +1705,13 @@ article.special {
 	}
 
 	.contact-us-header:hover {
+		color: #444;
+	}
+	.blog-header {
+		color: #444;
+	}
+
+	.blog-header:hover {
 		color: #444;
 	}
 

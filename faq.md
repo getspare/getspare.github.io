@@ -147,6 +147,15 @@ has a few mandatory protections in place that cover you in the event of an accid
   passengers. You can easily increase your liability limit
   by talking to your Autoplan dealer.**
 
+#### How do I get paid as a Driver?
+Spare does payouts directly to your Bank Account.  Around one
+    week after your drive, if required bank account information is
+    provided, Spare will deposit directly into your bank account.
+    To set this up go to Settings &#8594; Bank Account
+    and provide us with
+    the necessary information.  Spare uses the safe and secure, PCI-DSS
+    compliant service, Stripe to handle all payment transactions.
+
 #### How do I redeem a coupon code?
 To redeem a coupon code within the app go to
   Settings &#8594; Account Credits. Your account balance will

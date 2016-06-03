@@ -8,48 +8,17 @@ title: "Frequently Asked Questions"
 #### Why would I use Spare Rides?
 
 We are filling spare seats 🚣 with a fun journey, every day 🙌!
-Spare Rides is a new innovative app that is changing the way people
-commute. It provides real-time commute-sharing with people travelling
-in the same direction. Riders get matched with drivers within the app
-and pay for a portion of the cost of the trip, this allows for a more
-social 😎, sustainable 🌼 and affordable 💸 way to commute!
-
-#### What will I pay as a rider?
-Our pricing is very simple, only $1.50 in base
-fare and $0.50 per kilometer. For example, if you are travelling
-4.9 km, you will be charged $3.85 for
-the ride. Be part of the sharing community 💪 !
-
-Spare Rides is a great way to commute. You make a new friend,
-it is twice the speed of transit (yay to not waiting at the
-bus stop 🙌), and it compares really well to other commuting
-options in Vancouver.
-
-#### How much will I make as a driver?
-We know driving a car is expensive 💰! Did you know that, on
-average, it costs over $8,000 to own and drive a car in
-Canada 🚗. As a driver using Spare Rides, you will make
-$1.00 in base fare and $0.35 per kilometer
-for the rider you pick up. For example, if a rider needs to go
-just over 11 km, you will be making $5
-for each rider. Be part of the sharing community 💪 !
-
+  Spare Rides is a new innovative app that is changing the way people
+  commute. It allows you to share your commute with people traveling
+  in a similar direction. Riders get matched with drivers within the app
+  and pay for a portion of the cost of the trip. This allows for a more
+  social 😎, sustainable 🌼 and affordable 💸 way to commute!
 
 #### Where does this work?
-
-As a rider, we currently operate the service exclusively in
-Vancouver between 1st and 16th, UBC and Commercial during commuting hours (weekdays 8 AM to 11 AM,
-and 3 PM to 6 PM). If you would like us to expand our service
-to a certain location, [let us know](contact) - we might be heading your way 😜.
-
-As a driver, you can use Spare Rides anywhere, but pickup and
-dropoff of riders are only open within the Spare Rides Zone during commuting hours (weekdays 8 AM to
-11 AM, and 3 PM to 6 PM). The service therefore works best if
-you are driving for at least 5 km through the Spare Rides Zone.
-If you would like us to expand our service to a certain
-location, [let us know](contact) -
-we might be heading your way 😜.
-
+Spare is live in all of Metro Vancouver.  Set up your trip schedule today
+  and we will match you with awesome people.  If you would like us to expand our service to a certain
+  location, let us know -
+  we might be heading your way 😜
 
 #### How do you keep drivers/riders safe?
 Our primary concern is the safety of our users! We have therefore

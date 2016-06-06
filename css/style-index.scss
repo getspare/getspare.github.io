@@ -1659,7 +1659,7 @@ article.special {
 	/* Banner */
 
 		#banner {
-			padding: 10em 0em 14em;
+			padding: 10em 0em 18em;
 		}
 
 			#banner h2 {
@@ -1827,7 +1827,7 @@ article.special {
 	/* Banner */
 
 		#banner {
-			padding: 10em 0em 14em;
+			padding: 10em 0em 18em;
 			min-height: calc(100vh + 200px);
 		}
 
@@ -1949,9 +1949,13 @@ article.special {
 
 		#banner {
 			background-position: -200px center;
-			padding: 10em 0em 10em;
+			padding: 10em 0em 18em;
 		}
 
+    .mixpanel-badge {
+      display: none;
+    }
+    
 		#banner h2 {
 			padding: 0 .5em;
 		}

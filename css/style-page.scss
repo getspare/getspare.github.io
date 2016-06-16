@@ -1124,6 +1124,9 @@ input[type="button"] {
 		@extend %extend_13;
 	}
 }
+.text-section {
+	margin-top:20pt;
+}
 .button {
 	@extend %extend_9;
 	&:hover {

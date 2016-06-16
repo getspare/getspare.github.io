@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  {% include head-page.html %}
+
+	<body class="landing">
+		<!-- Banner -->
+      {% include gtm.html %}
+      {% include header.html %}
+
+      <section id="banner" style="background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(20, 0, 35, 0.6)), url({{ page.heroImage }})">
+				<h1>{{ page.title }}</h1>
+			</section>
+
+			<section>
+        <div class="container">
+            <p class="text-section">On June 21st, 2016 <a class="purple" href="http://sparerides.com">Spare Rides</a> and <a class="purple"  href="https://www.basecampcards.com/">Basecamp Card Co.</a> will be offering free rides from 8am - 11am across Vancouver.
+               This is an effort to help build connections among Vancouverites and bring our city closer together. 
+               <b>BONUS</b>: participants will get <b>$15 credit</b> on their Spare account* + free <b>Basecamp Cards set</b> (value $12.95)</p>
+                     <h3 class="orange">If you are interested in participating please fill in the following form. (* required)</h3>
+        </div>
+      </section>
+
+    <section>
+      <div class="container">
+					<form id="input-form" action="" method="POST" target="no-target">
+						<div class="row uniform">
+							<div class="6u 12u$(small)">
+								<input name="first-name" id="first-name" value="" placeholder="First Name*" type="text">
+							</div>
+							<div class="6u$ 12u$(small)">
+								<input name="last-name" id="last-name" value="" placeholder="Last Name*" type="text">
+							</div>
+              <div class="6u 12u$(small)">
+								<input name="phone-number" id="phone-number" value="" placeholder="Phone Number*" type="text">
+							</div>
+							<div class="6u$ 12u$(small)">
+								<input name="email" id="email" value="" placeholder="Email*" type="email">
+							</div>
+              <div class="6u 12u$(small)">
+								<input name="pick-up-address" id="pick-up-address" value="" placeholder="Pick-up Address*" type="text">
+							</div>
+							<div class="6u$ 12u$(small)">
+								<input name="destination-address" id="destination-address" value="" placeholder="Destination Address*" type="text">
+							</div>
+              <div class="6u 12u$(small)">
+								<input name="pickup-time" id="pickup-time" value="" placeholder="Pick-up Time*" type="text">
+							</div>
+							<div class="6u$ 12u$(small)">
+								<input name="comments" id="comments" value="" placeholder="Comments" type="text">
+							</div>
+              <div class="12u">
+										<input type="checkbox" id="consent" name="consent">
+										<label id="consent-label" for="consent">I hereby grant permission to be filmed and to use my film/photo 
+                      image for display on the website(s) of Spare Rides, Basecamp cards, Axe or 
+                      their Facebook, YouTube pages as well as in other media and promotional purposes.</label>
+							</div>
+						</div>
+            <input name="pageNumber" type="hidden" value="0" />
+            <input name="backupCache" type="hidden" />
+            <p id="input-feedback" style="text-align:center; margin-top: 20px; font-weight: bold;"></p>
+            <div style="text-align: center">
+                <button class="button drive-button" type="submit">Sign me up!</button>
+            </div>
+					</form>
+      </div>
+
+      <section>
+        <div class="container">
+            <h2 class="faq-question-title"></h2>
+            <p class="text-section">Disclaimer: We thank all applicants for their interest, 
+              however due to limited amount of drivers, we may not be able to confirm all 
+              participants. Please monitor your email or expect a phone call for confirmation.</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+            <p class="text-section">*to get $15 credit on the Spare Rides account, you 
+              will need to download the app <a class="purple" href="https://sparerides.com/app">here</a>.</p>
+        </div>
+      </section>
+
+      <footer class="app-store-link-footer">
+              <ul class="actions">
+                <li></li>
+                <li>
+                  <a href="http://sparerides.com/app" class="footer-download"><img src="images/app-store.svg"/></a>
+                </li>
+              </ul>
+        </footer>
+
+        </section>
+
+    {% include footer.html %}
+  <iframe src="#" id="no-target" name="no-target" style="display:none"></iframe>
+
+	</body>
+
+
+  <script>
+      $(function() {
+          $('#input-feedback').hide();
+      });
+      $('#input-form').on('submit',function(){
+          var firstName = encodeURIComponent($('#first-name').val());
+          var lastName = encodeURIComponent($('#last-name').val());
+          var phoneNumber = encodeURIComponent($('#phone-number').val());
+          var email = encodeURIComponent($('#email').val());
+          var pickupAddress = encodeURIComponent($('#pick-up-address').val());
+          var destinationAddress = encodeURIComponent($('#destination-address').val());
+          var pickupTime = encodeURIComponent($('#pickup-time').val());
+          var comments = encodeURIComponent($('#comments').val());
+          var consent = encodeURIComponent(document.getElementById('consent').checked);
+
+          var verified = true;
+
+          $('#first-name').css('border', '0px');
+          $('#last-name').css('border', '0px');
+          $('#phone-number').css('border', '0px');
+          $('#email').css('border', '0px');
+          $('#pick-up-address').css('border', '0px');
+          $('#destination-address').css('border', '0px');
+          $('#pickup-time').css('border', '0px');
+          $('#consent-label').css('color', '#444');
+
+          if (firstName == "") {
+              $('#first-name').css('border', '1px solid red');
+              verified = false;
+          }
+          if (lastName == "") {
+              $('#last-name').css('border', '1px solid red');
+              verified = false;
+          }
+          if (phoneNumber == "") {
+              $('#phone-number').css('border', '1px solid red');
+              verified = false;
+          }
+          if (email == "") {
+              $('#email').css('border', '1px solid red');
+              verified = false;
+          } 
+          if (pickupAddress == "") {
+              $('#pick-up-address').css('border', '1px solid red');
+              verified = false;
+          } 
+          if (destinationAddress == "") {
+              $('#destination-address').css('border', '1px solid red');
+              verified = false;
+          } 
+          if (pickupTime == "") {
+              $('#pickup-time').css('border', '1px solid red');
+              verified = false;
+          } 
+          if (!document.getElementById('consent').checked)
+          {
+              $('#consent-label').css('color', 'red');
+              verified = false;
+          }
+
+          if (verified)
+          {
+              var entry1 = "entry.628451116";
+              var entry2 = "entry.1642817071";
+              var entry3 = "entry.180018127";
+              var entry4 = "entry.386162695";
+              var entry5 = "entry.271458201";
+              var entry6 = "entry.1167326629";
+              var entry7 = "entry.970936056";
+              var entry8 = "entry.747028962";
+              var entry9 = "entry.10786262";
+              var baseURL = 'https://docs.google.com/a/spareapp.co/forms/d/1JaDtiGSUq6Y7F7jLRVQQWvKwnHhuV61Q2wZTi6NgCfg/formResponse?';
+              var submitRef = '&submit=Submit';
+              var submitURL = (baseURL + entry1 + "=" + firstName + "&" + entry2 + "=" + lastName + "&" + entry3 + "=" + phoneNumber + "&" + entry4 + "=" + email + "&" + entry5 + "=" + pickupAddress + "&" + entry6 + "=" + destinationAddress + "&" + entry7 + "=" + pickupTime + "&" + entry8 + "=" + comments + "&" + entry9 + "=" + consent + submitRef);
+              console.log(submitURL);
+              $("#input-form").attr("action", submitURL);
+              $('#input-feedback').text("You're all good to go!  We will get back to you 😀.");
+              $('#input-feedback').show( "fast" );
+          }
+      });
+  </script>
+
+</html>

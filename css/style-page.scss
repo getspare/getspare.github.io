@@ -34,6 +34,8 @@ $color_hibiscus_approx: #c4376b;
 $color_san_juan_approx: #31516a;
 $color_blaze_orange_approx: #f2600b;
 $color_chilean_fire_approx: #fd7400;
+$spare_orange: #fd7400;
+$spare_purple: #611B57;
 $color_ecstasy_approx: #fb7b0f;
 $color_medium_red_violet_approx: #9f3b90;
 $color_medium_red_violet_approx_h: #a73e97;
@@ -1633,7 +1635,24 @@ article.special {
 }
 .faq-question-title {
 	margin-top: 1em;
+	font-weight: bold;
 	border-bottom: 1px solid #eee;
+}
+
+.faq-section-header {
+	margin-top: 1em;
+	color: $spare_orange;
+}
+
+.faq-question-header {
+	margin-top: 1em;
+	color: $spare_orange;
+	border-bottom: 1px solid #eee;
+}
+
+.faq-question {
+	display: block;
+	text-decoration: underline;
 }
 
 .app-store-link-footer {

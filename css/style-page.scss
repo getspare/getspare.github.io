@@ -51,9 +51,10 @@ $color_manatee_approx: #8d93a0;
 $black_25: rgba(0, 0, 0, 0.25);
 
 //fonts
-$font_0: Open Sans;
-$font_1: Helvetica;
-$font_2: sans-serif;
+$font_0: -apple-system;
+$font_1: BlinkMacSystemFont;
+$font_2: Open Sans;
+$font_6: sans-serif;
 $font_3: Courier New;
 $font_4: monospace;
 $font_5: FontAwesome;
@@ -95,7 +96,7 @@ $url_3: url(../images/hero-main.jpeg);
 //body, input, select, textarea
 %extend_1 {
 	color: $color_tundora_approx;
-	font-family: $font_0, $font_1, $font_2;
+	font-family: $font_0, $font_1, $font_2, $font_6;
 	font-size: 13pt;
 	font-weight: 400;
 	line-height: 1.65em;

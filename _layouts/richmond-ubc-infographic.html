@@ -65,6 +65,15 @@
 
 
 	<body class="landing">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1628207420750499";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 		<!-- Banner -->
       {% include gtm.html %}
       {% include header.html %}
@@ -72,11 +81,27 @@
       <section id="banner" style="background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(20, 0, 35, 0.6)), url({{ page.heroImage }})">
 				<h1>{{ page.title }}</h1>
 			</section>
-
       <section class="wrapper style2 dark special">
+        <div style="padding-bottom: 2em">
+              <!-- Your share button code -->
+              <div class="fb-share-button" data-href="https://sparerides.com/richmond-ubc-infographic" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsparerides.com%2Frichmond-ubc-infographic&amp;src=sdkpreparse">Share</a></div>
+
+              <div class="fb-like" data-href="https://sparerides.com/richmond-ubc-infographic" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
+              
+<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="https://sparerides.com/richmond-ubc-infographic" data-via="SpareRides" data-related="sparerides,ubc" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/Share" data-url="https://sparerides.com/richmond-ubc-infographic" data-counter="right"></script>
+              </div>
+              <style media="screen" type="text/css">
+        .fb_iframe_widget span 
+        {
+            vertical-align: baseline !important;
+        }
+        </style>
 				<div class="container">
 					<div class="box alt">
 						<div class="row uniform">
+
 								<span class="image fit low-padded"><a href="/images/richmond-ubc-infographic.png"><img src="images/richmond-ubc-infographic.png" alt="" /></a></span>
 						</div>
 					</div>

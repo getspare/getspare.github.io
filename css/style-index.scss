@@ -1590,6 +1590,12 @@ article.special {
 	padding-bottom: 20pt;
 }
 
+.notification-corner {
+	position: absolute;
+    top: 100px;
+    right: 30px;
+}
+
 // Xlarge
 @media screen and (max-width: 1680px) {
 
@@ -1611,7 +1617,9 @@ article.special {
 
 
 	/* Basic */
-
+		.notification-corner {
+			display: none;
+		}
 		body, input, select, textarea {
 			font-size: 12pt;
 		}

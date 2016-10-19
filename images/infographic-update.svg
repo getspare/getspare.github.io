@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="380px" height="103px" viewBox="0 0 380 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="380" height="103" rx="22"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="380" height="103" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <polygon id="path-3" points="0 0 56 0 56 56 0 56"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-1206.000000, -210.000000)">
+            <g id="Group" transform="translate(1206.000000, 210.000000)">
+                <text id="Secrets-to-Commuting" font-family="SFUIText-Regular, SF UI Text" font-size="16" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="82" y="36">Secrets to Commuting in Vancouver </tspan>
+                    <tspan x="82" y="55">Infographic</tspan>
+                </text>
+                <text id="Commuting-is-hard-an" font-family="SFUIText-Regular, SF UI Text" font-size="12" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="82" y="77">Commuting is hard and we want to help!</tspan>
+                </text>
+                <use id="Rectangle-2" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                <g id="ic_fiber_new_black_24px" transform="translate(15.000000, 24.000000)">
+                    <g id="Clipped">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="a"></g>
+                        <path d="M46.6666667,9.33333333 L9.33333333,9.33333333 C6.74333333,9.33333333 4.69,11.41 4.69,14 L4.66666667,42 C4.66666667,44.59 6.74333333,46.6666667 9.33333333,46.6666667 L46.6666667,46.6666667 C49.2566667,46.6666667 51.3333333,44.59 51.3333333,42 L51.3333333,14 C51.3333333,11.41 49.2566667,9.33333333 46.6666667,9.33333333 L46.6666667,9.33333333 Z M19.8333333,35 L17.0333333,35 L11.0833333,26.8333333 L11.0833333,35 L8.16666667,35 L8.16666667,21 L11.0833333,21 L16.9166667,29.1666667 L16.9166667,21 L19.8333333,21 L19.8333333,35 L19.8333333,35 Z M31.5,23.94 L25.6666667,23.94 L25.6666667,26.5533333 L31.5,26.5533333 L31.5,29.4933333 L25.6666667,29.4933333 L25.6666667,32.0833333 L31.5,32.0833333 L31.5,35 L22.1666667,35 L22.1666667,21 L31.5,21 L31.5,23.94 L31.5,23.94 Z M47.8333333,32.6666667 C47.8333333,33.95 46.7833333,35 45.5,35 L36.1666667,35 C34.8833333,35 33.8333333,33.95 33.8333333,32.6666667 L33.8333333,21 L36.75,21 L36.75,31.5233333 L39.3866667,31.5233333 L39.3866667,23.31 L42.3033333,23.31 L42.3033333,31.5 L44.9166667,31.5 L44.9166667,21 L47.8333333,21 L47.8333333,32.6666667 L47.8333333,32.6666667 Z" id="Shape" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

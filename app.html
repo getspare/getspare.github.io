@@ -99,8 +99,12 @@
             }
             else if(isMobile.iOS())
             {
-                begin_timeout();
-                document.location.href="spareRides://";
+                try {
+                    document.location.href="spareRides://";
+                } catch(err) {
+                    window.location.reload(true);
+                    window.location='http://sparerides.com/ios';
+                }
             }
             else
             {

@@ -63,6 +63,14 @@
       <!--
       -->
       <script type="text/javascript">
+            function open_appstore() {
+                window.location='http://sparerides.com/ios';
+            }
+
+            function begin_timeout() {
+                setTimeout('open_appstore()', 300);
+            }
+
             var isMobile = {
                 Android: function() {
                     return navigator.userAgent.match(/Android/i);
@@ -91,7 +99,8 @@
             }
             else if(isMobile.iOS())
             {
-                document.location.href="http://sparerides.com/ios";
+                begin_timeout();
+                document.location.href="spareRides://";
             }
             else
             {

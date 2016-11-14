@@ -1304,9 +1304,10 @@ input[type="button"] {
 	background-position: center center;
 	background-size: cover;
 	color: $white;
-	padding: 13em 0;
+	padding-top: 13em;
+	padding-bottom: 2em;
 	text-align: center;
-	min-height: calc(100vh + 100px);
+	min-height: calc(100vh + 00px);
 	font-size: 0.85em;
 	:last-child {
 		margin-bottom: 0;
@@ -1450,12 +1451,67 @@ input[type="button"] {
 	height: 92px;
 	overflow: hidden;
 }
+
+.pillar {
+	div {
+		margin-left: 1em;
+		margin-right: 1em;
+		padding: 3em;
+		background-color: #FFF;
+		height: 400px;
+		margin-bottom: 3em;
+		border: 1px solid rgba(144, 144, 144, 0.25);
+
+		img {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			margin-bottom: 1em;
+			margin-right: 1em;
+
+			width: 100px;
+			overflow: hidden;
+		}
+
+		img.rounded {
+			border-radius: 50%;
+			width: 100px;
+			height: 100px;
+		}
+
+		img.bigger {
+			width: 150px;
+		}
+
+
+	}
+}
+
+.checklist-container {
+	padding-left: 2em;
+}
+
+ul.checklist {
+	padding-top: 2em;
+	li {
+		padding: 5px 0px 5px 40px;
+		line-height: 24px;
+		color: #fff;
+		text-align: left;
+		background: url(../images/checklist-li.png) no-repeat left 5px;
+		list-style: none;
+		/* margin-left: -20px; */
+		margin: 0 0 0 -30px;
+	}
+}
+
 #footer {
 	padding: 6em 0 4em;
-	position: absolute;
+	/*position: absolute;*/
 	bottom:0;
 	width: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.80));
+
+	/*background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.80));*/
+	background-color: #444;
+
 	h2 {
 		color: $white;
 	}
@@ -1582,6 +1638,11 @@ article.special {
 	text-align: center;
 }
 
+.subtitle {
+	line-height: 1.6em;
+	padding-top: 2em;
+}
+
 .app-store-button {
 		font-size: 1.35em;
 		margin: 3em 1em 10em 1em;
@@ -1648,7 +1709,7 @@ article.special {
 		.notification-corner {
 			display: none;
 		}
-		.news-box {
+		.news-box-title {
 			display: none;
 		}
 
@@ -1869,7 +1930,7 @@ article.special {
 
 		#banner {
 			padding: 10em 0em 18em;
-			min-height: calc(100vh + 200px);
+			min-height: calc(100vh);
 		}
 
 		#banner h2 {
@@ -1989,7 +2050,7 @@ article.special {
 	/* Banner */
 
 		#banner {
-			background-position: -200px center;
+			background-position: 0px center;
 			padding: 10em 0em 18em;
 		}
 

@@ -10,7 +10,7 @@
       {% include header.html %}
 
 			<section id="banner" style="background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(103, 37, 111, 0.60)), url({{ page.heroImage }})">
-        <div class="notification-corner"><a href="https://sparerides.com/richmond-ubc-infographic"><img src="images/infographic-update.svg"/></a></div>
+        <!--<div class="notification-corner"><a href="https://sparerides.com/richmond-ubc-infographic"><img src="images/infographic-update.svg"/></a></div>-->
         <h2>{{ page.title }}</h2>
         <div>
             <a href="https://www.youtube.com/watch?v=0jdawA6Hsp4" class="button big play-video swipebox-video" type="submit"><img class="play-button" src="images/play-image.png"/></a>
@@ -18,7 +18,8 @@
 				<div class="container">
             <br />
 				    <div class="12u$ inline">
-						    <a href="ride-app" class="button big ride-button" type="submit">{{ page.heroRideButtonTitle }}</a>
+              <p class="subtitle">Just download the app for free and create your trip!<br /> Your first 5 trips are free!</p>
+						    <!--<a href="app" class="button big ride-button" type="submit">{{ page.heroRideButtonTitle }}</a>-->
 					  </div>
             <br />
           <div class="12u$ inline">
@@ -28,10 +29,10 @@
             <a href="https://sparerides.com/android" class="app-store-button android"><img src="images/google-play-store.png"/></a>
           </div>
         </div>
-        <div class="container news-box">
+        <div class="container news-box-title">
           	<div class="box alt">
 						    <div class="row 50% uniform">
-                    <div class="3u 4u$(medium) 6u$(small)">
+                    <div class="3u 4u(medium) 6u(small)">
                         <a href="http://www.vancitybuzz.com/2016/02/spare-rides-vancouver-ride-share/">
                           <span class="image fit medium-padded hero-media"><img class="svg" src="images/vcb-logo-white.svg" alt="" /></span>
                         </a>
@@ -41,12 +42,12 @@
                           <span class="image fit medium-padded hero-media"><img class="svg" src="images/ctv-logo-white.svg" alt="" /></span>
                         </a>
                     </div>
-                    <div class="3u 4u$(medium) 6u$(small)">
+                    <div class="3u 4u(medium) 6u(small)">
 								        <a href="http://www.vancouversun.com/spare+rides+brings+carpooling+into+21st+century/11739353/story.html">
                           <span class="image fit medium-padded hero-media"><img class="svg" src="images/vancouver-sun-logo-white.svg" alt="" /></span>
                         </a>
                     </div>
-                    <div class="3u 4u$(medium) 6u$(small)">
+                    <div class="3u 4u(medium) 6u(small)">
 								        <a href="http://www.cbc.ca/news/canada/british-columbia/carpooling-spare-rides-app-launches-in-vancouver-1.3461846">
                           <span class="image fit medium-padded hero-media"><img class="svg" src="images/cbc-logo-white.svg" alt="" /></span>
                         </a>
@@ -54,7 +55,122 @@
                   </div>
               </div>
         </div>
-        {% include footer.html %}
 			</section>
+
+      <section class="wrapper style1 dark special">
+        <div class="container">
+						<div class="row 50% uniform">
+              <section class="4u 6u(medium) 12u$(small) pillar">
+                <div>
+                  <img src="images/happy-people-in-car.jpeg" class="rounded" alt="" />
+                  <h3>From Door to Door</h3>
+                  <p>Get picked up right from your doorstep and driven to work and home by your co-workers living in the neighbourhood.</p>
+                </div>
+              </section>
+              <section class="4u 6u(medium) 12u$(small) pillar">
+                <div>
+                <img src="images/happy-people-in-car-2.jpeg" class="rounded" alt="" />
+                <h3>Twice as Fast</h3>
+                <p>Get to work twice as fast and save up to 2 hours per day</p>
+                </div>
+              </section>
+              <section class="4u 6u(medium) 12u$(small) pillar">
+                <div>
+  								<img src="images/affordable-pig-bank.png" class="rounded" alt="" />
+  								<h3>Affordable</h3>
+                  <p>Enjoy your affordable, fast and comfortable ride. Taking a Spare is only a few dollars more than public transit.</p>
+                </div>
+              </section>
+						</div>
+				</div>
+      </section>
+
+      <section class="wrapper style1 dark special" style="background-size: cover; background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(103, 37, 111, 0.60)), url(images/happy-people-in-car-3.jpeg)">
+        <div class="container">
+						<div class="row 50% uniform">
+              <section class="4u 12u(medium) 12u$(small) pillar">
+                <div>
+                  <img src="images/spare-rides-logo.png" class="bigger" alt="" />
+                  <p>Spare Rides is a community driven ride-sharing service with more than 3000 trusted members in Vancouver.</p>
+                </div>
+              </section>
+              <section class="8u 12u(medium) 12u$(small)">
+                <div class="checklist-container">
+                  <ul class="checklist">
+                    <li>Guaranteed rides.</li>
+                    <li>Easy, one-tap trip scheduling.</li>
+                    <li>Flexible time and day arrangement, no commitment.</li>
+                    <li>Verified drivers from your work community. </li>
+                    <li>No sign-up and membership fees. </li>
+                  </ul>
+                </div>
+                <div class="news-box">
+                    <div class="row 50% uniform">
+                        <div class="3u 4u(medium) 4u(small)">
+                            <a href="http://www.vancitybuzz.com/2016/02/spare-rides-vancouver-ride-share/">
+                              <span class="image fit low-padded hero-media"><img class="svg" src="images/vcb-logo-white.svg" alt="" /></span>
+                            </a>
+                        </div>
+                        <div class="3u 4u$(medium) 4u$(small)">
+                            <a href="http://bc.ctvnews.ca/vancouver-companies-ready-for-uber-competition-1.2758372">
+                              <span class="image fit low-padded hero-media"><img class="svg" src="images/ctv-logo-white.svg" alt="" /></span>
+                            </a>
+                        </div>
+                        <div class="3u 4u(medium) 4u(small)">
+                            <a href="http://www.vancouversun.com/spare+rides+brings+carpooling+into+21st+century/11739353/story.html">
+                              <span class="image fit low-padded hero-media"><img class="svg" src="images/vancouver-sun-logo-white.svg" alt="" /></span>
+                            </a>
+                        </div>
+                        <div class="3u 4u$(medium) 4u(small)">
+                            <a href="http://www.cbc.ca/news/canada/british-columbia/carpooling-spare-rides-app-launches-in-vancouver-1.3461846">
+                              <span class="image fit low-padded hero-media"><img class="svg" src="images/cbc-logo-white.svg" alt="" /></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              </section>
+						</div>
+				</div>
+      </section>
+      
+      <section class="wrapper style2 special">
+        <div class="container">
+					<div class="box alt">
+						<div class="row 50% uniform">
+							<div class="4u 12u$(small)">
+							  <header><h2>{{ page.enterDestinationTitle }}</h2></header>
+								<span class="image fit low-padded"><img src="{{page.enterDestinationImage}}" alt="" /></span>
+							</div>
+							<div class="4u 12u$(small)">
+								<header><h2>{{ page.getMatchedTitle }}</h2></header>
+								<span class="image fit low-padded"><img src="{{page.getMatchedImage}}" alt="" /></span>
+							</div>
+							<div class="4u$ 12u$(small)">
+								<header><h2>{{ page.goTitle }}</h2></header>
+								<span class="image fit low-padded"><img src="{{page.goImage}}" alt="" /></span>
+							</div>
+						</div>
+					</div>
+				</div>
+      </section>
+
+			<section id="none" class="wrapper style1 special">
+        <footer>
+            <h2>How do I get started?</h2>
+            <p>Just download the app for free and create your trip!<br /><b>Your first 5 trips are free!</b></p>
+            <ul class="actions">
+              <li></li>
+              <li>
+                <a href="http://sparerides.com/app" class="footer-download"><img src="images/app-store.svg"/></a>
+              </li>
+              <li>
+                    <a href="https://sparerides.com/android" class="footer-download"><img src="images/google-play-store.png"/></a>
+                  </li>
+            </ul>
+        </footer>
+      </section>
+
+      
+      {% include footer.html %}
 	</body>
 </html>

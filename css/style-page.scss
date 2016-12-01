@@ -1301,6 +1301,12 @@ input[type="button"] {
 		color: #aadceb;
 	}
 }
+.corporate-header {
+	color: $white;
+	&:hover {
+		color: #aadceb;
+	}
+}
 .contact-us-header {
 	color: $white;
 	&:hover {

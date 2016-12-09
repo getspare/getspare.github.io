@@ -7,7 +7,7 @@ title: "Spare Ridesharing Terms and Conditions"
 
 ### Driver Terms of Use
 
-### Last Updated: June 7, 2016
+### Last Updated: November 30, 2016
 
 BY USING (THE TERM “USE” WHEN USED HEREIN IN RESPECT OF THE PLATFORM WILL MEAN ACCESS OR USE, AND “USING” WILL HAVE A CORRESPONDING MEANING) THE PLATFORM (AS THAT TERM IS DEFINED BELOW), YOU ACCEPT AND AGREE TO BE BOUND BY AND COMPLY WITH THESE TERMS OF USE, AS UPDATED FROM TIME TO TIME IN ACCORDANCE WITH THE SECTION BELOW TITLED “CHANGES TO THESE TERMS OF USE AND PLATFORM”. IF YOU DO NOT ACCEPT AND AGREE TO BE BOUND BY THESE TERMS OF USE, PLEASE DO NOT USE THE PLATFORM. IF YOU ARE USING THE PLATFORM ON BEHALF OF ANOTHER PERSON OR A CORPORATE ENTITY, YOU REPRESENT AND WARRANT THAT YOU HAVE THE AUTHORITY TO BIND SUCH PERSON OR ENTITY TO THESE TERMS OF USE.
 
@@ -51,7 +51,7 @@ YOU ACKNOWLEDGE THAT SPARE DOES NOT PROVIDE TRANSPORTATION OR LOGISTICS SERVICES
 
 ### Payment Fees
 
-You will receive a fee that is dynamically calculated with each Ride (the “Fee”), provided that you will receive no Fee if you cancel a Ride after being matched with a Passenger. Fees for Rides you provide will be paid to you once per month, or such other period determined by Spare or its third party payment processors.
+You will receive a fee that is dynamically calculated with each Ride (the “Fee”), provided that you will receive no Fee if you cancel a Ride after being matched with a Passenger. If you cancel a Ride after being matched with a Passenger, Spare will deduct $5 from your balance. Fees for Rides you provide will be paid to you once per month, or such other period determined by Spare or its third party payment processors.
 
 The Fees and charges set forth above to not include any payment processing fees assessed by our third party payment processors for which you will be solely responsible. By using the Platform Services, you authorize our third party payment processors to deduct and send directly to us any amounts owed to us pursuant to these Terms of Use. Third party payment processors are not subcontractors or agents of Spare and any disputes between you and a Passenger regarding any payments or lack thereof are between you, such Passenger and the third party payment processor, as applicable. We and our third party payment processors are not responsible for the transmission or processing of any payments you make or receive pursuant to your use of the Platform Services. Your use of the payment services provided by our third party payment processors may be subject to additional terms and conditions made available to you by such payment processors.
 
